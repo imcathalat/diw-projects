@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBC</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .posicionamento {
+            position: fixed;
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            margin-top: 20px;
+            margin-right: 40px;
+
+            
+        }
+        nav ul li {
+            display: inline;
+            padding: 15px;
+            
+        }
+
+        ul {
+            margin-top: 22px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            border-left: solid black 1px;
+            
+        }
+
+        nav a:first-of-type {
+            font-weight: bold;
+    
+        }
+
+        #search {
+            right: 5px;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            padding: 5px;
+            justify-content: flex-end;
+            height: 30px;
+            background-color: #eee;
+        }
+
+        #img-button {
+            width: 18px;
+            padding: 0px;
+            margin: 0px;
+            background-color: none;  
+        }
+
+        #but {
+            border: none;
+            padding: 4px;
+            border-radius: 4px;
+            
+            height: 30px;
+        }
+
+        div > button {
+            margin-left: 5px;
+        }
+
+
+        .wrapper {
+            display: flex;
+            margin-top: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <section class="posicionamento">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/640px-BBC_Logo_2021.svg.png" alt="Logo BBC" style="width: 160px;">
+            <nav>
+                <ul>
+                    <a href=""><li>Home</li></a>
+                    <a href=""><li>News</li></a>
+                    <a href=""><li>Suport</li></a>
+                    <a href=""><li>Reel</li></a>
+                    <a href=""><li>Worklife</li></a>
+                </ul>
+            </nav>
+            <div class="wrapper">
+                <input id="search" type="search" name="Search" value="Search"> 
+                <button id="but"><img id="img-button" src="https://cdn-icons-png.flaticon.com/512/3721/3721746.png" alt="Lupa de pesquisa"></button>
+            </div>
+        </section>
+    </header>
+</body>
+</html>

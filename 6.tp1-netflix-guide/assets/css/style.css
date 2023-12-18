@@ -1,0 +1,36 @@
+
+#navbar-font-size {
+    font-size: 1.5rem;
+}
+
+#logo {
+    height: 100px;
+}
+
+#card-9 {
+    display: none;
+}
+
+
+@media screen and (min-width: 992px) and (max-width:1200px) {
+    #card-9 {
+        display: flex;
+    }
+}
+
+@media screen and (max-width:576px) {
+    #img-carrousel-index {
+        height: 350px;
+    }
+
+    #img-carrousel-album {
+        height: 250px;
+    }
+}
+@media screen and (max-width:992px) {
+
+    #logo {
+        height: 70px;
+    }
+
+}

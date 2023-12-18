@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home Page</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    
+    <!--HEADER-->
+
+    <header>
+        <nav  class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+            <a class="navbar-brand" href="index.html"><img id="logo" src="assets/img/logo.png" alt="Logo Cinema"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a id="navbar-font-size" class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a id="navbar-font-size" class="nav-link" href="album.html">Album Details</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--FIM DO HEADER-->
+
+    <!--MAIN-->
+    <section class="mt-3">
+        <div class="container">
+
+            <!--CABEÇALHO DA SEÇÃO-->
+            <h2 class="mb-lg-0 mt-2">Favorites</h2>
+            <hr class="mt-1">
+
+            <!--COMPONENTE CARROSSEL-->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators" data-bs-touch="true">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img id="img-carrousel-index" src="assets/img/better-call-saul.jpg" class="d-block w-100 object-fit-fill " alt="..." height="600px">
+                  </div>
+                  <div class="carousel-item">
+                    <img id="img-carrousel-index" src="assets/img/Maid-poster.jpg" class="d-block w-100 object-fit-fill" alt="..." height="600px">
+                  </div>
+                  <div class="carousel-item">
+                    <img id="img-carrousel-index" src="assets/img/the-office.jpg" class="d-block w-100 object-fit-fill" alt="..." height="600px">
+                  </div>
+                  <div class="carousel-item">
+                    <img id="img-carrousel-index" src="assets/img/Modern-Family1.jpg" class="d-block w-100 object-fit-fill" alt="..." height="600px">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <!--FIM COMPONENTE CARROSSEL-->
+
+        </div>
+    </section>
+    
+    <!--MAPA-->
+    <section class="mt-4">
+        <div class="container">
+            <h2 class="mb-0">Where I live</h2>
+            <hr class="mt-2">
+
+            <div class="d-flex justify-content-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120048.59795757699!2d-44.04662274608247!3d-19.90253583914758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa690cacacf2c33%3A0x5b35795e3ad23997!2sBelo%20Horizonte%2C%20MG!5e0!3m2!1spt-BR!2sbr!4v1694258462357!5m2!1spt-BR!2sbr" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-100"></iframe>
+            </div>
+            <!--IFRAME-->
+            
+        </div>
+    </section>
+    <!--FIM MAPA-->
+      
+    <!--LISTA DE ALBUNS-->
+
+    <section class="mt-4">
+        <div class="container">
+            <h2 class="mb-0">More Series</h2>
+            <hr class="mt-1">
+
+            <div class="row">
+                <!--CARD 1-->
+                <div class=" col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-4">
+                        <img src="assets/img/bojack.jpg" class="card-img-top object-fit-cover" alt="..." height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Bojack Horseman</h5>
+                          <p class="card-text">Animação adulta sobre fama, decadência e redenção de um cavalo ator.</p>
+                          <a href="album.html" class="btn btn-light">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                 <!--CARD 2-->
+                <div class=" col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-4">
+                        <img src="assets/img/how-to-sell-2.jpg" class="card-img-top object-fit-cover" alt="..." height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title">How to Sell Drugs Online (Fast)</h5>
+                          <p class="card-text">Jovens enfrentam altos riscos no tráfico de drogas virtual.</p>
+                          <a href="album.html" class="btn btn-light">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                 <!--CARD 3-->
+                <div class=" col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-4">
+                        <img src="assets/img/Rick-and-Morty.jpg" class="card-img-top object-fit-cover" alt="..." height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Rick and Morty</h5>
+                          <p class="card-text">Viagens multiversais loucas com o brilhante cientista Rick e seu neto Morty, humor ácido.</p>
+                          <a href="album.html" class="btn btn-light">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                 <!--CARD 4-->
+                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-4">
+                        <img src="assets/img/arcane.jpg" class="card-img-top object-fit-cover" alt="..." height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Arcane</h5>
+                          <p class="card-text">Origens e rivalidades em Piltover e Zaun, onde tecnologia e magia colidem, moldando destinos</p>
+                          <a href="album.html" class="btn btn-light">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!--CARD 5-->
+                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-4">
+                        <img src="assets/img/modern-familly.png" class="card-img-top object-fit-cover" alt="..." height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Modern Familly</h5>
+                            <p class="card-text">Uma comédia que segue a vida engraçada e caótica de uma família diversificada.</p>
+                            <a href="album.html" class="btn btn-light">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--CARD 6-->
+                <div class=" col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-4">
+                        <img src="assets/img/maid-banner.jpg" class="card-img-top object-fit-cover" alt="..." height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Maid</h5>
+                            <p class="card-text">Uma mãe solteira fugindo de um relacionamento abusivo enquanto trabalha como empregada doméstica.</p>
+                            <a href="album.html" class="btn btn-light">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--CARD 7-->
+                <div class=" col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-4">
+                        <img src="assets/img/better-call-saul-cartaz.jpg" class="card-img-top object-fit-cover" alt="..." height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Better Call Saul</h5>
+                            <p class="card-text">Advogado transforma-se em anti-herói, mergulhando no mundo do crime enquanto luta pela justiça.</p>
+                            <a href="album.html" class="btn btn-light">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--CARD 8-->
+                <div class=" col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-4">
+                        <img src="assets/img/bb.jpg" class="card-img-top object-fit-cover" alt="..." height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Breaking Bad</h5>
+                            <p class="card-text">Um professor de química que descobriu um câncer se torna chefão do tráfico.</p>
+                            <a href="album.html" class="btn btn-light">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="card-9" class=" col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-4">
+                        <img src="assets/img/gambito.jpg" class="card-img-top object-fit-cover" alt="..." height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Queens Gambit</h5>
+                            <p class="card-text">Xadrez e estratégia na vida e no tabuleiro.</p>
+                            <a href="album.html" class="btn btn-light">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--FIM LISTA DE ALBUNS-->
+
+    <!--RODAPÉ-->
+
+
+    <footer class="mt-3">
+        <div class="container">
+
+            <h2 class="mb-lg-0 mt-2">Credits</h2>
+            <hr class="mt-1">
+
+            <!--SOBRE-->
+            <div class="row">
+                <div class="col-xxl-7 col-xl-6 col-lg-7 col-md-6">
+                    <h3>About me</h3>
+                        <p> Me chamo Isadora, tenho 19 anos. Sou original de Contagem, porém passei a minha infância e adolescência no interior de Minas. Meus hobbies são academia e alongamento, ver séries e ouvir músicas de trap americano tal qual Kendrick Lamar o maior, conversar com os meus amigos, ler e escrever. Uma das coisas mais legais que eu acho de crescer são as crises existenciais, porém só as leves. Todas as séries aqui presentes eu já assisti e achei boas, recomendo cada uma.</p>
+                </div>
+
+            <!--AUTORIA-->
+                <div class="col-xxl-5 col-xl-6 col-lg-5 col-md-6 justify-content-center my-4">
+                    <h3>Author</h3>
+                    <div class="container">
+                        <div class="row">
+                            <!--Imagem Autoria-->
+
+                            <div class=" col-xl-6 col-lg-6 col-md-6">
+                                <img src="assets/img/isadora.jpg" height="200px" class="card-img-top object-fit-cover"  alt="">
+                            </div>
+                            <!--Apresentação-->
+                            <div class=" col-xl-6 col-lg-6 col-md-6 m-0">
+                                <p> 
+                                    <strong>Nome:</strong> Isadora Maria de A. Cathalat <br>
+                                    <strong>Curso:</strong> Engenharia de Software <br>
+                                    <strong>Turno:</strong> Manhã
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+      
+
+    <!--Bootstrap Js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

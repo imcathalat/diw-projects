@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BCS</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    
+    <!--HEADER-->
+
+    <header>
+        <nav class="navbar navbar-brand navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+            <a class="navbar-brand" href="index.html"><img id="logo" src="assets/img/logo.png" alt="Logo Cinema"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a id="navbar-font-size" class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="navbar-font-size" class="nav-link active" href="album.html">Album Details</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--FIM DO HEADER-->
+
+    <!--MAIN-->
+
+    <!--ÁLBUM XPTO-->
+    <section class="mt-3">
+        <div class="container">
+
+            <h2 class="mb-lg-0 mt-2">More About Better Call Saul</h2>
+            <hr class="mt-1">
+
+            <!--IMG DO ALBUM-->
+            <div class="row">
+                <div class="col-xxl-5 col-xl-6 col-lg-5 col-md-6">
+                    <img src="assets/img/better-call-saul/capa-bcs.png" height="400px" class="card-img-top object-fit-cover" alt="">
+                </div>
+
+            <!--DESCRIÇÃO DO ALBUM-->
+                <div class="col-xxl-7 col-xl-6 col-lg-7 col-md-6 justify-content-center">
+                    <div>
+                        <h3>Description</h3>
+                        <p>Um drama que explora a transformação de Jimmy McGill, um advogado honesto, em Saul Goodman, um astuto advogado de defesa criminal. Ambientada no universo de "Breaking Bad," a série revela o submundo jurídico e os dilemas morais de Jimmy enquanto ele segue seu próprio caminho na lei.</p>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <!--Localização-->
+                            <div class=" col-xl-6 col-lg-6 col-md-6">
+                                <h3>Localização</h3>
+                                <a href="https://www.google.com/search?client=firefox-b-d&q=albuquerque" target="_blank">Albuquerque, New Mexico</a>
+                            </div>
+                            
+                            <!--Data de Registro-->
+                            <div class=" col-xl-6 col-lg-6 col-md-6">
+                                <h3>Date</h3>
+                                <p>2023-09-24</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--FIM DETALHES DO ÁLBUM-->
+      
+    <!--FOTOS DO ALBUM-->
+
+    <section class="mt-4 mb-4">
+        <div class="container">
+            <h2 class="mb-0">Main Characters</h2>
+            <hr class="mt-1">
+
+            <div class="row">
+                <!--CARD 1-->
+                <div class=" col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-4">
+                        <img src="assets/img/better-call-saul/one.jpg" class="card-img-top object-fit-cover" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title">Nacho Varga (on right)</h5>
+                          <p class="card-text">Um criminoso inteligente envolvido no tráfico de drogas que se torna um dos principais antagonistas da série.</p>
+                          <!--botão do modal-->
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Details
+                              </button>
+                        </div>
+                    </div>
+                </div>
+
+                 <!--CARD 2-->
+                <div class=" col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-4">
+                        <img src="assets/img/better-call-saul/eight.jpg" class="card-img-top object-fit-cover" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title">Walter White</h5>
+                          <p class="card-text">Ex-professor de química que se transforma em um chefão do tráfico de drogas.</p>
+                          <!--botão do modal-->
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Details
+                              </button>
+                        </div>
+                    </div>
+                </div>
+
+                 <!--CARD 3-->
+                <div class=" col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-4">
+                        <img src="assets/img/better-call-saul/three (2).jpg" class="card-img-top object-fit-cover" alt="..." height="300">
+                        <div class="card-body">
+                            <h5 class="card-title">Mike Ehrmantraut </h5>
+                          <p class="card-text">Ex-policial que trabalha como capanga e consultor de segurança de Gus.</p>
+                          <!--botão do modal-->
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Details
+                              </button>
+                        </div>
+                    </div>
+                </div>
+
+                 <!--CARD 4-->
+                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-4">
+                        <img src="assets/img/better-call-saul/four (2).jpg" class="card-img-top object-fit-cover" alt="..." height="300">
+                        <div class="card-body">
+                            <h5 class="card-title">Kim Wexler</h5>
+                          <p class="card-text"> Advogada talentosa que luta para equilibrar sua ética profissional com as tentações do mundo jurídico.</p>
+                          <!--botão do modal-->
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Details
+                              </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--CARD 5-->
+                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-4">
+                        <img src="assets/img/better-call-saul/five.jpg" class="card-img-top object-fit-cover" alt="..." height="300">
+                        <div class="card-body">
+                            <h5 class="card-title">Chuck McGill </h5>
+                            <p class="card-text">Advogado brilhante, sofre de uma doença eletromagnética que o afasta do mundo exterior.</p>
+                            <!--botão do modal-->
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Details
+                              </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--CARD 6-->
+                <div class=" col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-4">
+                        <img src="assets/img/better-call-saul/twelve.jpg" class="card-img-top object-fit-cover" alt="..." height="300">
+                        <div class="card-body">
+                            <h5 class="card-title">Howard Hamlin</h5>
+                            <p class="card-text">Sócio sênior na firma de advocacia Hamlin, Hamlin & McGill. Tem uma relação complicada com Jimmy e Kim.</p>
+                            <!--botão do modal-->
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Details
+                              </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--CARD 7-->
+                <div class=" col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-4">
+                        <img src="assets/img/better-call-saul/GUS.jpg" class="card-img-top object-fit-cover" alt="..." height="300">
+                        <div class="card-body">
+                            <h5 class="card-title">Gus Fring</h5>
+                            <p class="card-text">Um dos maiores traficantes de drogas da série e um personagem importante.</p>
+                            <!--botão do modal-->
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Details
+                              </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--CARD 8-->
+                <div class=" col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-4">
+                        <img src="assets/img/better-call-saul/hector.jpg" class="card-img-top object-fit-cover" alt="..." height="300">
+                        <div class="card-body">
+                            <h5 class="card-title">Hector Salamanca</h5>
+                            <p class="card-text">Um chefão do tráfico de drogas mexicano com uma rivalidade de longa data com Gus Fring.</p>
+                            <!--botão do modal-->
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Details
+                              </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--CARD 9-->
+                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-4">
+                        <img src="assets/img/better-call-saul/eleven.jpg" class="card-img-top object-fit-cover" alt="..." height="300">
+                        <div class="card-body">
+                            <h5 class="card-title">Lalo Salamanca</h5>
+                            <p class="card-text">Um membro da família Salamanca e um dos personagens mais carismáticos e perigosos da série.</p>
+                            <!--botão do modal-->
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Details
+                              </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--CARD 10-->
+                <div class=" col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-4">
+                        <img src="assets/img/better-call-saul/jesse.jpg" class="card-img-top object-fit-cover" alt="..." height="300">
+                        <div class="card-body">
+                            <h5 class="card-title">Jesse Pinkman</h5>
+                            <p class="card-text">Ex-aluno de Walter e traficante de drogas, vida fica mais complicada à medida que se envolve com Walter.</p>
+                            <!--botão do modal-->
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Details
+                              </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--CARD 11-->
+                <div class=" col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-4">
+                        <img src="assets/img/better-call-saul/tuco.jpg" class="card-img-top object-fit-cover" alt="..." height="300">
+                        <div class="card-body">
+                            <h5 class="card-title">Tuco Salamanca</h5>
+                            <p class="card-text">Traficante explosivo e violento que causa turbulência no mundo de Walter e Jesse.</p>
+                            <!--botão do modal-->
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Details
+                              </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--CARD 12-->
+                <div class=" col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-4">
+                        <img src="assets/img/better-call-saul/seven.jpg" class="card-img-top object-fit-cover" alt="..." height="300">
+                        <div class="card-body">
+                            <h5 class="card-title">Jane Margolis</h5>
+                            <p class="card-text"> Namorada de Jesse, que compartilha lutas contra o vício e seu impacto nas suas vidas.</p>
+                            <!--botão do modal-->
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Details
+                              </button>
+                              
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--FIM FOTOS DO ALBUM-->
+
+    <!--MODAL-->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Best Scenes</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+
+                    <!--Conteudo do Modal-->
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img id="img-carrousel-album" src="assets/img/better-call-saul/nacho-dead.jpg" class="d-block w-100 object-fit-cover" alt="Capa de um video do youtube - Morte do Nacho Varga" height="400px">
+
+                            </div>
+
+                        <div class="carousel-item">
+                            <img id="img-carrousel-album" src="assets/img/better-call-saul/nacho-infiltrado.jpg" class="d-block w-100 object-fit-cover" alt="Nacho da série Better Call Saul olhando para Tuco Salamanca" height="400px">
+                        </div>
+                        <div class="carousel-item">
+                            <img id="img-carrousel-album" src="assets/img/better-call-saul/howard-die.jpg" class="d-block w-100 object-fit-cover" alt="..." height="400px">
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+
+                    <div class="my-4">
+                        <p>Better Call Saul tem 6 temporadas, no entanto, muitos fãs têm suas cenas preferidas.  Abaixo as 3 cenas mais bem votadas da série:</p>
+                        <a target="_blank" href="https://www.youtube.com/watch?v=XpTve97y6Wc&ab_channel=BreakingBad%26BetterCallSaul">Morte de Nacho</a> <br>
+                        <a target="_blank" href="https://youtu.be/s7Es_v1NlM0">Nacho infiltrado na casa dos Salamanca</a> <br>
+                        <a target="_blank" href="https://youtu.be/s7Es_v1NlM0">Morte de Howard Hamlin</a>
+                    </div>
+
+                    <!--Fim Conteúdo do Modal-->
+
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+                    <!--Fim Conteúdo do Modal-->
+
+            
+        </div>
+
+
+
+
+
+    </div>
+
+    <!--FIM MODAL-->
+      
+
+    <!--Bootstrap Js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
